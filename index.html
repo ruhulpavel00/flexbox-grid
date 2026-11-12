@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox and Grid Layouts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Flexbox Area -->
+  <section class="container">
+    <h2>Flexbox</h2>
+
+    <div class="layout flex-layout">
+      <div class="flex-column left-column">
+        <div class="box red"></div>
+        <div class="box white"></div>
+      </div>
+
+      <div class="flex-column middle-column">
+        <div class="flex-row">
+          <div class="box teal"></div>
+          <div class="box gold"></div>
+        </div>
+        <div class="flex-row">
+          <div class="box gold"></div>
+          <div class="box white"></div>
+        </div>
+        <div class="flex-row">
+          <div class="box red"></div>
+          <div class="box teal"></div>
+        </div>
+      </div>
+
+      <div class="flex-column right-column">
+        <div class="box gold"></div>
+        <div class="box red"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Grid Area -->
+  <section class="container">
+    <h2>Grid</h2>
+
+    <div class="layout grid-layout">
+      <div class="box red"></div>
+      <div class="box teal"></div>
+      <div class="box gold"></div>
+      <div class="box gold"></div>
+      <div class="box white"></div>
+      <div class="box red"></div>
+      <div class="box white"></div>
+      <div class="box red"></div>
+      <div class="box teal"></div>
+    </div>
+  </section>
+
+</body>
+</html>
